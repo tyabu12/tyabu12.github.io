@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <title>tyabu</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">tyabu</h1>
+    </header>
+    <main role="main" class="container">
+      <article>
+        <section>
+          <h2>ブログ</h2>
+          <a href="http://tyabu.hatenablog.jp" target="_blank">コーヒー休憩</a>
+        </section>
+      </article>
+      <article class="portfolio">
+        <h2>ポートフォリオ</h2>
+        <div class="card-columns">
+          <section class="card">
+            <a href="https://e-navigator-tyabu12.herokuapp.com" target="_blank">
+              <img src="img/portfolio/e-navigator.jpg" class="card-img-top" alt="面談日程調整の画像">
+            </a>
+            <div class="card-body">
+              <h3 class="card-title">面談日程調整 (開発中)</h3>
+              <p class="card-date">2018-03</p>
+              <p class="card-text">
+                株式会社フィードフォースが提供するエンジニア教育プログラム「e-Navigator」の一環として開発中のアプリです。
+                Ruby on Rails で実装してますが、触るのは初めてなのでAPIリファレンスなどを参考にして実装しています。
+                ローカル開発環境は Docker、デプロイは Heroku を使用しています。
+              </p>
+              <a href="https://github.com/tyabu12/e-navigator" class="card-link" target="_blank">ソースコード</a>
+            </div>
+          </section>
+          <section class="card">
+            <a href="https://reader.codacapo.net/" target="_blank">
+              <img src="img/portfolio/reader.jpg" class="card-img-top" alt="RSSリーダーの画像">
+            </a>
+            <div class="card-body">
+              <h3 class="card-title">RSSリーダー</h3>
+              <p class="card-date">2018-02</p>
+              <p class="card-text">
+                シンプルなRSSリーダーです。Laravel の勉強として開発しました。
+                さくらのVPS上に Nginx + PHP-fpm を用いて構築し、SSL証明書は Let's Encrypt を使用しました。
+              </p>
+              <a href="https://github.com/tyabu12/reader" class="card-link" target="_blank">ソースコード</a>
+            </div>
+          </section>
+          <section class="card">
+            <a href="http://fukudaiphil.katsu-ie.com" target="_blank">
+              <img src="img/portfolio/fukudaiphil.jpg" class="card-img-top", alt="福井大学フィルハーモニー管弦楽団のHPの画像">
+            </a>
+            <div class="card-body">
+              <h3 class="card-title">所属サークルのHP</h3>
+              <p class="card-date">2015-03</p>
+              <p class="card-text">
+                所属していたオーケストラサークルのホームページデザインがかなり古かったため、
+                HTML5 と CSS3 で作り直しました (フレームワーク未使用) 。
+                スマートフォンでの表示にも対応しています。
+              </p>
+            </div>
+          </section>
+        </div>
+      </article>
+    </main>
+    <aside class="container sns">
+      <h2>SNS</h2>
+      <ul>
+        <li class="fa-stack fa-2x">
+          <a href="https://github.com/tyabu12" target="_blank">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+          </a>
+        </li>
+        <li class="fa-stack fa-2x">
+          <a href="https://twitter.com/b00yah12" target="_blank">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+          </a>
+        </li>
+      </ul>
+    </aside>
+    <footer>
+      <small>&copy; 2018. All rights reserved.</small>
+    </footer>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js" integrity="sha384-sCI3dTBIJuqT6AwL++zH7qL8ZdKaHpxU43dDt9SyOzimtQ9eyRhkG3B7KMl6AO19" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+</html>
