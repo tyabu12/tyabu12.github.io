@@ -87,11 +87,7 @@ article {
   color: #960014;
 } 
 
-footer {
-  width: 100%;
-}
-
-footer small {
+.copyright {
   text-align: right;
   padding-bottom: 10px;
 }
