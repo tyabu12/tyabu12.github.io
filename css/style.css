@@ -1,0 +1,97 @@
+body {
+  box-sizing: border-box;
+  font-family: "Noto Sans Japanese", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "Osaka", "ＭＳ Ｐゴシック", "MS P Gothic",  sans-serif;
+  line-height: 1.4;
+  font-size: 14px;
+  color: #333;
+  background-color: #f6f6f6;
+}
+
+a {
+  color: #960014;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #960014;
+} 
+
+h1 {
+  font-size: 48px;
+  font-weight: 200;
+  line-height: 60px;
+}
+
+h2 {
+  font-weight: bold;
+  border-bottom: 2px solid #333;
+  padding-bottom: 8px;
+  margin-bottom: 30px;
+}
+
+header {
+  background: url("../img/top.jpg") no-repeat center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 340px;
+  position: relative;
+}
+
+header .title {
+  color: #eee;
+  position: absolute;
+  left: 20px;
+  bottom: 4px;
+}
+
+article {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.blog a {
+  font-size: large;
+}
+
+.portfolio .card-deck {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.portfolio .card {
+  width: 20rem;
+}
+
+.portfolio .card-body {
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.portfolio .card-date {
+  text-align: right;
+  color: #999;
+}
+
+.portfolio h3 {
+  font-size: 24px;
+}
+
+.sns li {
+  margin-right: 10px;
+}
+
+.fa-stack a {
+  color: #333;
+}
+
+.fa-stack a:hover {
+  color: #960014;
+} 
+
+footer {
+  width: 100%;
+}
+
+footer small {
+  text-align: right;
+  padding-bottom: 10px;
+}

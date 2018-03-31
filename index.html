@@ -3,24 +3,37 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
+    <meta name="format-detection" content="telephone=no">
     <title>tyabu</title>
+    <meta name="description" content="tyabuの個人サイト。">
+    <meta name="author" content="tyabu">
+    <meta property="og:site_name" content="tyabu">
+    <meta property="og:title" content="tyabu">
+    <meta property="og:description" content="tyabuの個人サイト。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tyabu12.github.io">
+    <!-- <meta property="og:image" content="ogpのURL貼る"> -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@b00yah12">
+    <meta name="twitter:image" content="@b00yah12">
+    <link rel="canonical" href="https://tyabu12.github.io">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header>
+    <header role="banner">
       <h1 class="title">tyabu</h1>
     </header>
     <main role="main" class="container">
-      <article>
+      <article class="blog">
+        <h2>ブログ</h2>
         <section>
-          <h2>ブログ</h2>
           <a href="http://tyabu.hatenablog.jp" target="_blank">コーヒー休憩</a>
         </section>
       </article>
       <article class="portfolio">
         <h2>ポートフォリオ</h2>
-        <div class="card-columns">
+        <div class="card-deck">
           <section class="card">
             <a href="https://e-navigator-tyabu12.herokuapp.com" target="_blank">
               <img src="img/portfolio/e-navigator.jpg" class="card-img-top" alt="面談日程調整の画像">
@@ -29,9 +42,9 @@
               <h3 class="card-title">面談日程調整 (開発中)</h3>
               <p class="card-date">2018-03</p>
               <p class="card-text">
-                株式会社フィードフォースが提供するエンジニア教育プログラム「e-Navigator」の一環として開発中のアプリです。
-                Ruby on Rails で実装してますが、触るのは初めてなのでAPIリファレンスなどを参考にして実装しています。
-                ローカル開発環境は Docker、デプロイは Heroku を使用しています。
+                株式会社フィードフォースが提供するエンジニア教育プログラム「e-Navigator」の一環として開発中のアプリ。
+                Ruby on Rails で実装してますが、触るのは初めてなのでAPIリファレンスなどを参考に実装。
+                ローカル開発環境は Docker、デプロイは Heroku を使用。
               </p>
               <a href="https://github.com/tyabu12/e-navigator" class="card-link" target="_blank">ソースコード</a>
             </div>
@@ -44,8 +57,8 @@
               <h3 class="card-title">RSSリーダー</h3>
               <p class="card-date">2018-02</p>
               <p class="card-text">
-                シンプルなRSSリーダーです。Laravel の勉強として開発しました。
-                さくらのVPS上に Nginx + PHP-fpm を用いて構築し、SSL証明書は Let's Encrypt を使用しました。
+                シンプルなRSSリーダーです。Laravel の勉強として開発。
+                さくらのVPS上に Nginx + PHP-fpm を用いて構築し、SSL証明書は Let's Encrypt を使用。
               </p>
               <a href="https://github.com/tyabu12/reader" class="card-link" target="_blank">ソースコード</a>
             </div>
@@ -59,8 +72,8 @@
               <p class="card-date">2015-03</p>
               <p class="card-text">
                 所属していたオーケストラサークルのホームページデザインがかなり古かったため、
-                HTML5 と CSS3 で作り直しました (フレームワーク未使用) 。
-                スマートフォンでの表示にも対応しています。
+                HTML5 と CSS3 で作り直し (フレームワーク未使用) 。
+                スマートフォンでの表示にも対応。
               </p>
             </div>
           </section>
