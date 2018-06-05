@@ -40,8 +40,7 @@ header {
 header .title {
   color: #eee;
   position: absolute;
-  left: 20px;
-  bottom: 4px;
+  top: 60%;
 }
 
 article {
@@ -49,18 +48,7 @@ article {
   padding-bottom: 30px;
 }
 
-.sns li {
-  margin-right: 10px;
-}
-
-.fa-stack a {
-  color: #333;
-}
-
-.fa-stack a:hover {
-  color: #960014;
-}
-
-.copyright {
+footer .copyright {
+  font-size: small;
   text-align: right;
 }
