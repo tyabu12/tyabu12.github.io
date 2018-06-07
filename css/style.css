@@ -1,70 +1,68 @@
 body {
-  font-family: "Noto Sans Japanese", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "Osaka", "ＭＳ Ｐゴシック", "MS P Gothic",  sans-serif;
-  line-height: 1.4;
-  font-size: 18px;
-  color: #333;
-  background-color: #f6f6f6;
+    font-family: "Noto Sans Japanese", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "Osaka", "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
+    line-height: 1.4;
+    font-size: 18px;
+    color: #333;
+    background-color: #f6f6f6;
 }
 
 a {
-  color: #960014;
-  text-decoration: none;
+    color: #960014;
+    text-decoration: none;
 }
 
 a:hover {
-  color: #960014;
-}
-
-h1 {
-  font-size: 48px;
-  font-weight: 200;
-  line-height: 60px;
-}
-
-h2 {
-  font-weight: bold;
-  border-bottom: 2px solid #333;
-  padding-bottom: 8px;
-  margin: 0 0 30px 0;
+    color: #960014;
 }
 
 header {
-  background: url("../img/top.jpg") no-repeat center;
-  -webkit-background-size: cover;
-  background-size: cover;
-  height: 340px;
-  position: relative;
+    background: url("../img/top.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 340px;
+    position: relative;
 }
 
-header .title {
-  color: #eee;
-  position: absolute;
-  top: 60%;
+header h1 {
+    font-size: 48px;
+    font-weight: 200;
+    line-height: 60px;
+    color: #eee;
+    position: absolute;
+    top: 60%;
 }
 
 nav {
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-  background-color: #f6f6f6;
+    /* Safari */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #f6f6f6;
 }
 
 nav ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 nav li {
-  display: inline;
-  padding-right: 32px;
+    display: inline;
+    padding-right: 32px;
 }
 
 section {
-  padding-bottom: 60px;
+    padding-bottom: 60px;
+}
+
+section h2 {
+    font-weight: bold;
+    border-bottom: 2px solid #333;
+    padding-bottom: 8px;
+    margin: 0 0 30px 0;
 }
 
 footer .copyright {
-  font-size: small;
-  text-align: right;
+    font-size: small;
+    text-align: right;
 }
