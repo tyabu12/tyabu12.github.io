@@ -4,6 +4,8 @@ body {
     font-size: 18px;
     color: #333;
     background-color: #f6f6f6;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -16,10 +18,10 @@ a:hover {
 }
 
 header {
-    background: url("../img/top.jpg") no-repeat center;
+    background: url("../img/top2.jpg") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
-    height: 340px;
+    height: 337px;
     position: relative;
 }
 
@@ -29,7 +31,7 @@ header h1 {
     line-height: 60px;
     color: #eee;
     position: absolute;
-    top: 60%;
+    top: 67%;
 }
 
 nav {
