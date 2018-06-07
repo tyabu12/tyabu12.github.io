@@ -1,11 +1,16 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
 body {
     font-family: "Noto Sans Japanese", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "Osaka", "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
     line-height: 1.4;
     font-size: 18px;
     color: #333;
     background-color: #f6f6f6;
-    margin: 0;
-    padding: 0;
 }
 
 a {
@@ -21,17 +26,17 @@ header {
     background: url("../img/top2.jpg") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
-    height: 337px;
+    height: 40%;
     position: relative;
 }
 
 header h1 {
     font-size: 48px;
     font-weight: 200;
-    line-height: 60px;
     color: #eee;
     position: absolute;
-    top: 67%;
+    bottom: 5%;
+    margin: 0;
 }
 
 nav {
