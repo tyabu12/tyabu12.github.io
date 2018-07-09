@@ -67,7 +67,10 @@ nav ul {
 
 nav li {
     display: inline;
-    padding-right: 32px;
+}
+
+nav ul.links li {
+  padding-right: 28px;
 }
 
 section {
