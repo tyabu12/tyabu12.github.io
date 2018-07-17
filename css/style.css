@@ -52,10 +52,6 @@ header .caption a {
 }
 
 nav {
-    /* Safari */
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
     background-color: #f6f6f6;
 }
 
@@ -70,7 +66,17 @@ nav li {
 }
 
 nav ul.links li {
-  padding-right: 28px;
+    padding-right: 28px;
+}
+
+@media screen and (max-width: 480px) {
+  nav {
+    text-align: center;
+  }
+
+  nav ul.links li {
+      padding: 0 14px;
+  }
 }
 
 section {
